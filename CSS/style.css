@@ -26,7 +26,7 @@ body {
     justify-content: center;
 }
 
-.whiteBox {
+.colorBox {
     width: 18em;
     height: 18em;
     cursor: pointer;
@@ -41,5 +41,28 @@ body {
     width: 13em;
     height: 13em;
     position: relative;
+    cursor: pointer;
     background-color: rgb(0 229 247);
+}
+
+
+/* Class while we hold object. */
+
+.hold {
+    border: 2px solid white;
+}
+
+
+/* Class for  hide object */
+
+.hide {
+    visibility: hidden;
+}
+
+
+/* Class for add dashed border in object */
+
+.dashed {
+    border: 2px dashed black;
+    background-color: rgb(76, 93, 94);
 }
