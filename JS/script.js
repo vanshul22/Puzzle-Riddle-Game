@@ -1,8 +1,8 @@
 /*
 Website Name - Puzzle-Riddle-Game
 Name : Vanshul Kesharwani
-Date : 04/04/2022
-Version : 3.2.1
+Date : 05/05/2022
+Version : 3.3.2
 Email : vkvanshulkesharwani54@gmail.com
 Description : This is a Web app for playing puzzle game. We can play game of puzzle. Works without reloading page with JavaScript.
 */
@@ -37,7 +37,7 @@ for (let colorBox of colorBoxes) {
         e.preventDefault();
     });
     colorBox.addEventListener("dragenter", (e) => {
-        // While entering we will change border style and bgcolor.
+        // While entering we will change border style and bgColor.
         e.target.className += " dashed";
     });
     colorBox.addEventListener("dragleave", (e) => {
